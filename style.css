@@ -1,0 +1,149 @@
+*{ box-sizing: border-box;}
+
+body{ margin: 0;}
+
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@500&display=swap');
+
+
+/* --------------display-text design --------------- */
+
+.container{ 
+    margin-left: 60px;
+    margin-right: 140px;
+    margin-top: 50px;
+    }
+.display-text h1{ font-weight: 700;
+    font-size: 70px;}
+
+.display-text{font-family: 'Poppins', sans-serif;
+    width: 531px;
+    height: 600px;
+    color: white;
+  margin-left: 50px;
+    
+}
+
+.text-image{ display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 1250px;
+        height: 600px;
+        padding: 10px;
+        background: #161616;
+    border-radius: 20px;}
+
+
+    .image img { width:550px;
+        height: 600px;}
+
+/* ------------------------BUTTON ------------------- */
+.watch { text-decoration: none;
+    background-color:darkgoldenrod;
+   
+padding: 10px 20px;
+color:white;
+border-radius: 15px;
+font-family: 'Poppins', sans-serif;
+cursor: pointer;
+transition: 0.2s;
+font-weight: 700;
+}
+
+.fa-solid{ margin: 10px;}
+ .watch:hover {background-color: lightskyblue;
+   
+    color: black;
+}
+
+/*---------------------------------------
+ -----------------------------BUTTONS---------------------------------
+-------------------------------- */ 
+
+.match{ margin-top: 100px;
+
+}
+
+.button{ background-color: #161616;
+    width: 312px;
+    height: 312px;
+border-radius: 10px;
+margin: 5px;
+}
+
+.buttons a{ 
+
+    text-decoration: none; 
+    justify-content: space-around;
+    align-items: center;
+ margin: 5px;
+margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(1,3fr);}
+
+.buttons{ 
+ margin: 50px;
+}
+
+.botton.color{ background-color: #AA0000;
+color: white;
+
+}
+.botton{ padding: 10px 15px 10px ;
+background-color: white;
+width: 200px;
+height: 64px;
+font-weight: 500;
+font-size: 20px;
+color: black;
+border-radius: 20px;
+text-align: center;
+font-family: 'Poppins', sans-serif;}
+
+.button-match{ display: flex;
+gap: 10px;
+
+}
+
+/* -----------------------VIDEO DESIGNS ----------------------- */
+.player-video{ width: 312px;
+    height: 362px;
+
+border-radius: 10px;
+margin: 10px;
+display: grid;
+grid-template-columns: repeat(3,9fr);
+grid-gap: 50px;
+}
+
+
+.transfer h4{width: 272px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+margin: 5%;
+}
+.border{ border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 100px;
+    height: 32px;
+padding-left: 16px;
+padding-top: 6px;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+color:  #AA0000;
+font-size: 16px;
+margin: 5%;
+}
+
+.transfer{ box-shadow: 10px 15px 15px lightgray;
+border-radius: 10px;
+}
+.video-description{ display: flex;
+align-items: center;
+gap: 10px;
+font-family:'Poppins', sans-serif;
+font-weight: 400;
+color: #161616B2;
+margin: 5%;
+}
