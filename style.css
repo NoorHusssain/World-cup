@@ -140,7 +140,7 @@ font-weight: 700;
     border-radius: 20px;
     margin-right: 10px;}
 
-.grid{ display: grid;
+.grid,.grid-match{ display: grid;
 grid-template-columns: repeat(3,9fr);
 }
 
@@ -242,6 +242,8 @@ font-size: 40px;}
 height: 500px;
 padding-right: 90px;
 padding-top: 10px;
+position: relative;
+bottom: -25px;
 
 }
     .text-image,.container,.image,.match{ width: 100%;
@@ -255,7 +257,7 @@ padding-top: 10px;
 .button-match,.button{ background-color: white;}
 .grid{ grid-template-columns: repeat(1,1fr);}
 
-
+.contact{ padding: 10px 25px;}
 .social { display: flex;
 margin: 0px;
 gap: 20px;
@@ -268,5 +270,41 @@ margin-top: 20px;
     gap: 20px;
     font-size: 1.5em;
     }
-
+.grid-match{ grid-template-columns: repeat(1,1fr);
+flex-direction: column;}
  }
+
+ /* ---------------------TABLET DEVICES------------------- */
+
+ @media only screen and (max-width:992px) {
+
+    .text-image,.image,.display-text,.container{ width: 1000px;
+    margin: 0px;
+    height: 100%;
+    }
+    
+    .text-image{ width: 800px;}
+    .image img{ width: 400px;
+    height: 500px;}
+    
+    .display-text p{ display: none;}
+    .button { background-color: white;
+    grid-template-rows: repeat(1,3fr);
+    }
+  
+   .container,.grid,.video-design,.match{ width: 100%;
+    height: 90%;
+    grid-template-columns: repeat(2,9fr);
+flex-direction: column;
+
+align-items: center;
+padding: 10px 15px 10px;}
+
+.social{display: flex;}   
+.social a{ text-align: center;
+    font-size: 50px;
+    margin: 100px;
+    gap: 20px;
+    transition: ease-in 0.3s;
+    }
+}
